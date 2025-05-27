@@ -5,7 +5,6 @@ export interface LandingPageData {
   servicesData: ServicesData;
   adventajesData: AdventajesData;
   brandsData: BrandsData;
-  pricingData: PricingData;
   footerData: FooterData;
 }
 
@@ -73,11 +72,6 @@ export interface Brand {
   label: string;
   icon: string;
   href: string;
-}
-
-export interface PricingData {
-  title: string;
-  tiers: Tier[];
 }
 
 export interface Tier {

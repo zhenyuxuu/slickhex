@@ -1,44 +1,41 @@
 {
   "meta": {
-    "title": "Luna Landing your perfect landing page",
-    "description": "Landing page template",
+    "title": "Slick Hex | Boosting Sustainability",
+    "description": "Boosting Sustainability with Slick Hex",
     "lang": "en",
     "charset": "UTF-8",
     "ldJson": {
       "@context": "http://schema.org",
       "@type": "Organization",
-      "name": "Luna Landing",
-      "description": "Fictitious company that seeks to elevate and simplify the lives of web developers.",
-      "url": "https://luna-landing-rust.vercel.app/",
+      "name": "Slick Hex",
+      "description": "Renewable energy company that seeks to elevate and simplify the lives of home owners",
+      "url": "https://slickhex.com",
       "logo": "./public/favicon.svg",
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "luna-landing@luna.com",
-        "contactType": "Client Service"
+        "email": "slickhex@gmail.com",
+        "contactType": "Ask Founders"
       },
       "sameAs": [
         "https://www.twitter.com/yourpage",
-        "https://www.instagram.com/yourpage",
         "https://www.linkedin.com/company/yourpage"
       ]
     }
   },
   "headerData": {
-    "logo": "Luna Landing",
+    "logo": "Slick Hex",
     "links": [
       { "label": "About", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Prices", "href": "#" },
       { "label": "FAQs", "href": "#" },
       { "label": "Blog", "href": "#" }
     ]
   },
   "heroData": {
-    "title": "Open Your Mind to the Universe: Welcome to",
-    "subTitle": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
-    "primaryCta": "Github Repo",
-    "secondaryCta": "See our pricing",
-    "highlightedTitle": "Luna Landing"
+    "title": "Elevate Your Energy System to Next Level: Welcome to",
+    "subTitle": "Be Part of the Transition to a Fully Renewable World: Explore the Infinite Wonders of Energy with Us",
+    "primaryCta": "About Us",
+    "secondaryCta": "Careers",
+    "highlightedTitle": "Slick Hex"
   },
   "servicesData": {
     "title": "Everything you need to build a website",
@@ -66,7 +63,7 @@
     ]
   },
   "adventajesData": {
-    "title": "    Unlock the Power of Luna Landing: Discover the Key Benefits",
+    "title": "    Unlock the Power of Slick Hex: Discover the Key Benefits",
     "adventajes": [
       {
         "title": "Take Your Website to Perfection",
@@ -112,65 +109,11 @@
       }
     ]
   },
-  "pricingData": {
-    "title": "Our Pricing",
-    "tiers": [
-      {
-        "title": "Starter",
-        "description": "Best option for personal use & for your next project.",
-        "price": {
-          "amount": "Free"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "title": "Professional",
-        "description": "Relevant for multiple users, extended & premium support.",
-        "price": {
-          "amount": "$29",
-          "period": "/month"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "title": "Enterprise",
-        "description": "Best for large scale uses and extended redistribution rights.",
-        "price": {
-          "amount": "$59",
-          "period": "/month"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      }
-    ]
-  },
   "footerData": {
-    "logo": "Luna Landing",
+    "logo": "Slick Hex",
     "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
     "links": [
       { "label": "About", "href": "/" },
-      { "label": "Services", "href": "/" },
-      { "label": "Blog", "href": "/" },
       { "label": "FAQs", "href": "/" },
       { "label": "Contact", "href": "/" }
     ],

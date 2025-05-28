@@ -4,7 +4,6 @@ export interface LandingPageData {
   heroData: HeroData;
   servicesData: ServicesData;
   adventajesData: AdventajesData;
-  brandsData: BrandsData;
   footerData: FooterData;
 }
 
@@ -19,6 +18,10 @@ export interface HeroData {
   primaryCta: string;
   secondaryCta: string;
   highlightedTitle: string;
+  backgroundImage: {
+        src: string;
+        alt: string;
+    };
 }
 
 export interface ServicesData {
@@ -60,12 +63,6 @@ export interface Link {
 export interface Social {
   icon: string;
   href: string;
-}
-
-export interface BrandsData {
-  title: string;
-  description: string;
-  brands: Brand[];
 }
 
 export interface Brand {

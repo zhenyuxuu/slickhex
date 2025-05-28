@@ -8,6 +8,10 @@ interface Props {
     primaryCta: string;
     secondaryCta: string;
     highlightedTitle?: string;
+    backgroundImage: {
+      src: string;
+      alt: string;
+    };
   };
 }
 
@@ -15,6 +19,13 @@ const { data } = Astro.props;
 ---
 
 <section id="hero-section" class="flex justify-center mt-48 h-screen">
+  <div class="absolute top-0 left-0 w-full h-full z-[-1] opacity-10">
+    <img 
+      src={`/${data.backgroundImage.src}`}
+      alt={data.backgroundImage.alt}
+      class="w-full h-full object-cover"
+    />
+  </div>
   <div class="md:w-1/2">
     <h1 class="text-4xl text-center font-semibold md:text-6xl">
       {data.title}
@@ -28,7 +39,7 @@ const { data } = Astro.props;
         as="a"
         type="button"
         class="bg-black text-white"
-        href="https://github.com/JimmyCamus/luna-landing"
+        href="https://slickhex.com"
         target="_blank"
       >
         {data.primaryCta}
@@ -37,7 +48,7 @@ const { data } = Astro.props;
         as="a"
         class="bg-transparent text-black border border-black"
         type="button"
-        href="https://github.com/JimmyCamus/luna-landing"
+        href="https://slickhex.com"
         target="_blank"
       >
         {data.secondaryCta}

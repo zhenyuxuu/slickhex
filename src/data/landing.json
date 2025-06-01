@@ -10,7 +10,7 @@
       "name": "Slick Hex",
       "description": "Renewable energy company that seeks to elevate and simplify the lives of home owners",
       "url": "https://slickhex.com",
-      "logo": "./public/favicon.svg",
+      "logo": "./public/logo_only.svg",
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "slickhex@gmail.com",
@@ -23,7 +23,12 @@
     }
   },
   "headerData": {
-    "logo": "Slick Hex",
+    "logo": {
+      "src": "/slickhex.svg",
+      "alt": "Slick Hex Logo",
+      "width": 50,
+      "height": 50
+    },
     "links": [
       { "label": "About", "href": "#" },
 	  { "label": "Careers", "href": "#" },
@@ -38,7 +43,7 @@
     "secondaryCta": "Careers",
     "highlightedTitle": "Slick Hex",
     "backgroundImage": {
-      "src": "hex_bg1.jpg",
+      "src": "hex_bg0.jpg",
       "alt": "Hero section background pattern"
     }
   },

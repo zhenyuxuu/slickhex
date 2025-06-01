@@ -8,8 +8,16 @@ export interface LandingPageData {
 }
 
 export interface HeaderData {
-  logo: string;
-  links: Link[];
+  logo: {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+  };
+  links: Array<{
+    label: string;
+    href: string;
+  }>;
 }
 
 export interface HeroData {

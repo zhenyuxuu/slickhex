@@ -33,8 +33,8 @@
     "links": [
       { "label": "About", "href": "#" },
 	  { "label": "Careers", "href": "#" },
-      { "label": "FAQs", "href": "#" },
-      { "label": "Blog", "href": "#" }
+      { "label": "Contact Us", "href": "#" },
+      { "label": "News Today", "href": "#" }
     ]
   },
   "heroData": {
@@ -49,21 +49,21 @@
     }
   },
   "adventajesData": {
-    "title": "We have redefined battery trading experience. Slick and Simplified.",
+    "title": "We Have Redefined Battery Trading. Slick and Simplified.",
     "adventajes": [
       {
-        "title": "Release all power from your energy system",
-        "description": "This is description 1 - blablabla",
+        "title": "Your Battery Has Value. Let's Unlock It Now.",
+        "description": "Discover your battery value and compare/track... blablabla",
         "img": "batt_recycle_1.png",
         "imageAlt": "battery recycling illustration",
-        "checks": ["Trade", "Test", "Track"]
+        "checks": ["Test battery health in seconds", "Evaluate performance and resale value", "Track prices and view historical trends"]
       },
       {
-        "title": "Apply the slick power to your sweet home",
-        "description": "This is description 2 - blablabla",
+        "title": "One Energy Storage System. Many Lifetimes.",
+        "description": "Power up the next destination with few clicks. Recharge shopping experiences",
         "img": "batt_recycle_2.png",
         "imageAlt": "battery recycling illustration",
-        "checks": ["Search Visibility", "Organic Traffic", "Online Credibility"]
+        "checks": ["Buy top-performers at competitive price", "Sell with instant valuation", "Bid on high-demand models"]
       }
     ]
   },
@@ -72,8 +72,9 @@
     "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
     "links": [
       { "label": "About", "href": "/" },
-      { "label": "FAQs", "href": "/" },
-      { "label": "Contact", "href": "/" }
+      { "label": "Careers", "href": "/" },
+      { "label": "Contact Us", "href": "/" },
+	  { "label": "News Today", "href": "/" }
     ],
     "socials": [
       { "icon": "TwitterIcon", "href": "/" },

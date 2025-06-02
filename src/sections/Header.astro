@@ -14,8 +14,8 @@ const { data } = Astro.props;
   class="w-full transition duration-300 justify-center fixed h-20 z-50 flex"
 >
   <nav aria-label="Main Navigation" class="flex flex-row items-center justify-between w-3/4">
-    <div class="text-nowrap">
-      <Action as="a" href="#">
+    <div class="text-nowrap flex items-center gap-x-3">
+      <Action as="a" href="#" class="flex items-center gap-x-3">
         <img 
           src={data.logo.src}
           alt={data.logo.alt}
@@ -23,6 +23,9 @@ const { data } = Astro.props;
           height={data.logo.height}
           class="h-10 w-auto"
         />
+        <span class="text-xl font-azonix text-gray">
+          {data.logo.text}
+        </span>
       </Action>
     </div>
 
@@ -65,7 +68,7 @@ const { data } = Astro.props;
 
       <ul
         id="menu-content"
-        class="absolute right-0 top-full mt-2 w-40 bg-white shadow-xl transform origin-top scale-y-0 opacity-0 transition-all duration-300 ease-in-out rounded-xl overflow-hidden"
+        class="absolute right-0 top-full mt-2 w-40 bg-white shadow-xl transform origin-top scale-y-0 opacity-75 transition-all duration-300 ease-in-out rounded-xl overflow-hidden"
       >
         {
           data.links.map((item) => (
@@ -73,7 +76,7 @@ const { data } = Astro.props;
               <Action 
                 as="a" 
                 href={item.href} 
-                class="block w-full px-4 py-3 hover:bg-gray-50 text-gray-700 hover:text-primary transition-colors"
+                class="block w-full px-4 py-3 hover:bg-gray-50 text-gray-700 hover:text-primary font-poppins-semibold transition-colors"
               >
                 {item.label}
               </Action>

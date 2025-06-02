@@ -33,16 +33,70 @@ const ldJson = JSON.stringify(meta.ldJson);
 </html>
 
 <style is:global>
+  @font-face {
+    font-family: "Azonix";
+    src: url("/fonts/Azonix.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
   body {
     font-family:
       "Rubik Variable",
-      Menlo,
       Monaco,
-      Lucida Console,
-      Liberation Mono,
-      DejaVu Sans Mono,
-      Bitstream Vera Sans Mono,
-      Courier New,
+      Menlo,
+      "Lucida Console",
+      "Liberation Mono",
+      "DejaVu Sans Mono",
+      "Bitstream Vera Sans Mono",
+      "Courier New",
       monospace;
+  }
+
+  .font-monaco {
+    font-family: Monaco, "Lucida Console", monospace;
+  }
+
+  .font-azonix {
+    font-family: "Azonix", sans-serif;
+  }
+
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .font-poppins-italic {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+  }
+
+  .font-poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
   }
 </style>

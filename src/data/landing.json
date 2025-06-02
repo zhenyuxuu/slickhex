@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Slick Hex | Boosting Sustainability",
+    "title": "The Battery Marketplace",
     "description": "Boosting Sustainability with Slick Hex",
     "lang": "en",
     "charset": "UTF-8",
@@ -8,7 +8,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "Slick Hex",
-      "description": "Renewable energy company that seeks to elevate and simplify the lives of home owners",
+      "description": "An online platform that provides all-in-one solutions for battery evaluation and trading.",
       "url": "https://slickhex.com",
       "logo": "./public/logo_only.svg",
       "contactPoint": {
@@ -38,7 +38,7 @@
     ]
   },
   "heroData": {
-    "title": "Skip the Guesswork. Unlock Power with",
+    "title": "Skip the Guesswork. Connect Power with",
     "subTitle": "You have found what you need",
     "primaryCta": "Free Evaluation",
     "secondaryCta": "Learn More",
@@ -69,7 +69,7 @@
   },
   "footerData": {
     "logo": "Slick Hex",
-    "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
+    "description": "The online platform that provides all-in-one solutions for battery evaluation and trading",
     "links": [
       { "label": "About", "href": "/" },
       { "label": "Careers", "href": "/" },

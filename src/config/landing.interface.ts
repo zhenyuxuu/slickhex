@@ -2,7 +2,6 @@ export interface LandingPageData {
   meta: Meta;
   headerData: HeaderData;
   heroData: HeroData;
-  servicesData: ServicesData;
   adventajesData: AdventajesData;
   footerData: FooterData;
 }
@@ -13,6 +12,7 @@ export interface HeaderData {
     alt: string;
     width: number;
     height: number;
+	text: string;
   };
   links: Array<{
     label: string;
@@ -30,11 +30,6 @@ export interface HeroData {
         src: string;
         alt: string;
     };
-}
-
-export interface ServicesData {
-  title: string;
-  services: Service[];
 }
 
 export interface Service {

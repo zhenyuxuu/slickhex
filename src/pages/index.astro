@@ -4,7 +4,6 @@ import Adventajes from "@/sections/Adventajes.astro";
 import Footer from "@/sections/Footer.astro";
 import Header from "@/sections/Header.astro";
 import Hero from "@/sections/Hero.astro";
-import Services from "@/sections/Services.astro";
 import { getLandingData } from "@/services/data.service";
 
 const data = await getLandingData();
@@ -15,7 +14,6 @@ const data = await getLandingData();
   <main class="flex flex-col justify-center items-center">
     <div class="w-3/4">
       <Hero data={data.heroData} />
-      <Services data={data.servicesData} />
       <Adventajes data={data.adventajesData} />
     </div>
     <Footer data={data.footerData} />

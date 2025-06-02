@@ -24,10 +24,11 @@
   },
   "headerData": {
     "logo": {
-      "src": "/slickhex.svg",
+      "src": "/logo.png",
       "alt": "Slick Hex Logo",
-      "width": 50,
-      "height": 50
+      "width": 30,
+      "height": 30,
+      "text": "Slick Hex"
     },
     "links": [
       { "label": "About", "href": "#" },
@@ -37,43 +38,18 @@
     ]
   },
   "heroData": {
-    "title": "Elevate Your Energy System to Next Level: Welcome to",
-    "subTitle": "Be Part of the Transition to a Fully Renewable World: Explore the Infinite Wonders of Energy System with Us",
-    "primaryCta": "Contact Us",
-    "secondaryCta": "Careers",
-    "highlightedTitle": "Slick Hex",
+    "title": "Skip the Guesswork. Unlock Power with",
+    "subTitle": "You have found what you need",
+    "primaryCta": "Free Evaluation",
+    "secondaryCta": "Learn More",
+    "highlightedTitle": "The Battery Marketplace",
     "backgroundImage": {
       "src": "hex_bg0.jpg",
       "alt": "Hero section background pattern"
     }
   },
-  "servicesData": {
-    "title": "We are on a mission to complete renewable energy ecosystem",
-    "services": [
-      {
-        "title": "Professional Templates",
-        "icon": "DevIcon",
-        "description": "UPDATE ME 1"
-      },
-      {
-        "title": "Integrated Accessibility",
-        "icon": "PlanetIcon",
-        "description": "UPDATE ME 2"
-      },
-      {
-        "title": "SEO-Optimized",
-        "icon": "FileIcon",
-        "description": "UPDATE ME 3"
-      },
-      {
-        "title": "Easy Set up",
-        "icon": "ConfigIcon",
-        "description": "UPDATE ME 4"
-      }
-    ]
-  },
   "adventajesData": {
-    "title": "Unlock the Power of Slick Hex: Discover the Key Benefits",
+    "title": "We have redefined battery trading experience. Slick and Simplified.",
     "adventajes": [
       {
         "title": "Release all power from your energy system",

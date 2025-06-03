@@ -11,10 +11,10 @@ const { data } = Astro.props;
 ---
 
 <footer
-  class="flex flex-col justify-center text-center gap-y-8 pt-8 bg-black text-white w-full"
+  class="flex flex-col justify-center text-center gap-y-8 pt-8 bg-black text-white font-poppins w-full"
 >
   <section>
-    <Action as="a" type="text" class="text-xl md:text-2xl" href="/">
+    <Action as="a" type="text" class="text-xl font-azonix md:text-3xl" href="/">
       {data.logo}
     </Action>
   </section>
@@ -24,7 +24,7 @@ const { data } = Astro.props;
     </p>
   </section>
   <section
-    class="flex flex-row flex-wrap justify-center gap-x-3 px-4 md:px-0 md:text-xl"
+    class="flex flex-row flex-wrap justify-center gap-x-3 px-4 font-poppins-semibold md:px-0 md:text-xl"
   >
     {
       data.links.map((link) => (

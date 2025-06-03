@@ -13,7 +13,7 @@
       "logo": "./public/logo_only.svg",
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "slickhex@gmail.com",
+        "email": "admin@slickhex.com",
         "contactType": "Ask Founders"
       },
       "sameAs": [
@@ -77,8 +77,8 @@
 	  { "label": "News Today", "href": "/" }
     ],
     "socials": [
-      { "icon": "TwitterIcon", "href": "/" },
-      { "icon": "GithubIcon", "href": "/" }
+      { "icon": "XIcon", "href": "/" },
+      { "icon": "LinkedInIcon", "href": "/" }
     ]
   }
 }

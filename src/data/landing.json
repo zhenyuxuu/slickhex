@@ -53,14 +53,14 @@
     "adventajes": [
       {
         "title": "Your Battery Has Value. Let's Unlock It Now.",
-        "description": "Discover your battery value and compare/track... blablabla",
+        "description": "Discover your batteries' true value and how it stacks up. Monitor market shifts to stay ahead of pricing changes. Get quick insights into condition, potential, and buyer interest — all at your fingertips.",
         "img": "batt_recycle_1.png",
         "imageAlt": "battery recycling illustration",
         "checks": ["Test battery health in seconds", "Evaluate performance and resale value", "Track prices and view historical trends"]
       },
       {
         "title": "One Energy Storage System. Many Lifetimes.",
-        "description": "Power up the next destination with few clicks. Recharge shopping experiences",
+        "description": "Power up the next destination with just a few clicks. Recharge your shopping journey with smarter picks and seamless transactions. Explore, list, or make offers — all in one connected marketplace.",
         "img": "batt_recycle_2.png",
         "imageAlt": "battery recycling illustration",
         "checks": ["Buy top-performers at competitive price", "Sell with instant valuation", "Bid on high-demand models"]

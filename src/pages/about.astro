@@ -1,0 +1,54 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Footer from "@/sections/Footer.astro";
+import Header from "@/sections/Header.astro";
+import { getLandingData } from "@/services/data.service";
+
+const data = await getLandingData();
+---
+
+<Layout meta={data.meta}>
+  <Header data={data.headerData} />
+  <main class="flex flex-col items-center justify-center min-h-screen py-12">
+    <div class="w-full max-w-4xl px-4 -mt-20">
+      <h1 class="text-4xl font-poppins-semibold text-center mb-8">About Us</h1>
+      
+      <div class="space-y-6 bg-white p-8 rounded-xl shadow-lg">
+        <h2 class="text-2xl font-poppins-semibold text-primary mb-4">
+          Revolutionizing Battery Business
+        </h2>
+        
+        <p class="text-lg font-poppins text-gray-700 leading-relaxed mb-6">
+          At Slick Hex, we have redefined how batteries are evaluated, priced, and exchanged. 
+          Our one unified platform links you to the resources you need, seamlessly, like hexagons.
+		  Whether you're trading, assessing value, or simply exploring, 
+		  Slick Hex makes every connection efficient and reliable.
+        </p>
+
+        <p class="text-lg font-poppins text-gray-700 leading-relaxed mb-6">
+          We deliver real-time, data-backed insights — from health diagnostics to market analytics — 
+		  empowering smarter initiatives across the battery lifecycle. Whether you're a manufacturer, installer, 
+          distributor, or end-user, our platform helps you make informed decisions about your battery investments.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+          <div class="text-center p-4">
+            <h3 class="text-xl font-poppins-semibold text-primary mb-2">Evaluate</h3>
+            <p class="font-poppins text-gray-600">Get instant, accurate assessments of your battery's condition</p>
+          </div>
+          
+          <div class="text-center p-4">
+            <h3 class="text-xl font-poppins-semibold text-primary mb-2">Trade</h3>
+            <p class="font-poppins text-gray-600">Connect with verified buyers and sellers in our secure marketplace</p>
+          </div>
+          
+          <div class="text-center p-4">
+            <h3 class="text-xl font-poppins-semibold text-primary mb-2">Analyze</h3>
+            <p class="font-poppins text-gray-600">Access market trends and latest news to optimize your decisions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer data={data.footerData} />
+</Layout>

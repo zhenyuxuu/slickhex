@@ -31,10 +31,10 @@
       "text": "Slick Hex"
     },
     "links": [
-      { "label": "About", "href": "#" },
-	  { "label": "Careers", "href": "#" },
-      { "label": "Contact Us", "href": "#" },
-      { "label": "News Today", "href": "#" }
+      { "label": "About", "href": "/about" },
+	  { "label": "Careers", "href": "/" },
+      { "label": "Contact Us", "href": "/contact-us" },
+      { "label": "News Today", "href": "/" }
     ]
   },
   "heroData": {
@@ -71,9 +71,9 @@
     "logo": "Slick Hex",
     "description": "The online platform that provides all-in-one solutions for battery evaluation and trading",
     "links": [
-      { "label": "About", "href": "/" },
+      { "label": "About", "href": "/about" },
       { "label": "Careers", "href": "/" },
-      { "label": "Contact Us", "href": "/" },
+      { "label": "Contact Us", "href": "/contact-us" },
 	  { "label": "News Today", "href": "/" }
     ],
     "socials": [

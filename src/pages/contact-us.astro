@@ -13,12 +13,13 @@ const data = await getLandingData();
     <div class="w-full max-w-2xl px-4 -mt-20">
       <h1 class="text-4xl font-poppins-semibold text-center mb-8">Contact Us</h1>
       <form 
-      	action="https://formsubmit.co/el/muhata"
+      	action="https://api.web3forms.com/submit"
         method="POST"
         class="space-y-6 bg-white p-8 rounded-xl shadow-lg"
       >
-	    <input type="hidden" name="_token" value="btqN6pvyaGZqS1Vvx5XlZ8iBknLnDMNXkmdQCfWn" />
-  		<input type="hidden" name="url" value="" />
+	  	<input type="hidden" name="access_key" value="84a69d81-c038-407e-aa79-e23fb92238d7">
+		<input type="hidden" name="redirect" value="https://slickhex.com">
+		<input type="checkbox" name="botcheck" id="" style="display: none;">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		  <div>
 			<label for="firstName" class="block text-sm font-poppins text-gray-700">First Name *</label>
@@ -84,10 +85,6 @@ const data = await getLandingData();
           ></textarea>
         </div>
 		<div class="flex justify-center">
-		  <input type="hidden" name="_autoresponse" value="Thank you for contacting Slick Hex. We'll get back to you soon." />
-		  <input type="hidden" name="_captcha" value="true" />
-		  <input type="hidden" name="url" value="" />
-		  <input type="hidden" name="_next" value="https://slickhex.com/thank-you" />
           <button 
             type="submit"
             class="bg-primary text-white px-8 py-3 rounded-md hover:bg-primary/90 hover:scale-105 transition-colors duration-200 font-poppins"
